@@ -1,9 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Image from 'next/image'
+import { useState } from 'react'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
-import { ReactNode, useState } from 'react'
 
 export default function Slide() {
   const [currentComponent, setCurrentComponent] = useState<string>('')
