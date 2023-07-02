@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper {
+    @apply w-auto h-16
+}
+
+.swiper-slide {
+    @apply text-center bg-white flex justify-center items-center 
+}
+
+.swiper-slide img {
+    @apply object-contain
+}
+
+.component-render {
+    @apply flex flex-col items-center justify-center 
+}
+
+.name-of-bug {
+    @apply font-bold text-3xl py-8
+}
