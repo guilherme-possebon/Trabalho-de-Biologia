@@ -16,9 +16,15 @@
 }
 
 .component-render {
-    @apply flex flex-col items-center justify-center 
+    @apply flex flex-col items-center justify-center
 }
-
+.components {
+    @apply flex items-center
+}
 .name-of-bug {
     @apply font-bold text-3xl py-8
+}
+
+.what-is-infos {
+    @apply flex items-center justify-evenly
 }

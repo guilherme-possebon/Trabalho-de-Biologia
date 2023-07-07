@@ -42,12 +42,16 @@ export default function Slide() {
       case 'component14':
         return Component14()
       default:
-        return
+        return Component1()
     }
   }
   return (
-    <>
-      <Swiper slidesPerView={14} spaceBetween={10}>
+    <section className="h-screen m-1">
+      <Swiper
+        slidesPerView={14}
+        spaceBetween={10}
+        className="border-2 rounded-md"
+      >
         <SwiperSlide>
           <>
             <button onClick={() => handleClick('component1')}>
@@ -203,8 +207,8 @@ export default function Slide() {
           </>
         </SwiperSlide>
       </Swiper>
-      <hr />
       <div className="component-render">
+        {currentComponent === '' && renderComponent('component1')}
         {currentComponent === 'component1' && renderComponent('component1')}
         {currentComponent === 'component2' && renderComponent('component2')}
         {currentComponent === 'component3' && renderComponent('component3')}
@@ -220,7 +224,7 @@ export default function Slide() {
         {currentComponent === 'component13' && renderComponent('component13')}
         {currentComponent === 'component14' && renderComponent('component14')}
       </div>
-    </>
+    </section>
   )
 }
 
@@ -231,9 +235,9 @@ const Component1 = () => {
   return (
     <>
       <h1 className="name-of-bug">Triatoma infestans</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
-          src="/Triatoma_infestansF.png"
+          src="/triatoma_infestansF.png"
           width={widthConst}
           height={heightConst}
           alt="Imagem do inceto 'Triatoma infestans' junto com o mapa do Brasil"
@@ -258,7 +262,7 @@ const Component2 = () => {
   return (
     <>
       <h1 className="name-of-bug">Panstrongylus megistus</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Panstrongylus_megistusF.png"
           width={widthConst}
@@ -284,7 +288,7 @@ const Component3 = () => {
   return (
     <>
       <h1 className="name-of-bug">Triatoma brasiliensis</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Triatoma_brasiliensisF.png"
           width={widthConst}
@@ -308,7 +312,7 @@ const Component4 = () => {
   return (
     <>
       <h1 className="name-of-bug">Triatoma maculata</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Triatoma_maculataF.png"
           width={widthConst}
@@ -334,7 +338,7 @@ const Component5 = () => {
   return (
     <>
       <h1 className="name-of-bug">Triatoma pseudomaculata</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Triatoma_pseudomaculataF.png"
           width={widthConst}
@@ -362,7 +366,7 @@ const Component6 = () => {
   return (
     <>
       <h1 className="name-of-bug">Triatoma rubrovaria</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Triatoma_rubrovariaF.png"
           width={widthConst}
@@ -386,7 +390,7 @@ const Component7 = () => {
   return (
     <>
       <h1 className="name-of-bug">Triatoma sordida</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Triatoma_sordidaF.png"
           width={widthConst}
@@ -410,7 +414,7 @@ const Component8 = () => {
   return (
     <>
       <h1 className="name-of-bug">Triatoma tibiamaculata</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Triatoma_tibiamaculataF.png"
           width={widthConst}
@@ -434,7 +438,7 @@ const Component9 = () => {
   return (
     <>
       <h1 className="name-of-bug">Triatoma vitticeps</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Triatoma_vitticepsF.png"
           width={widthConst}
@@ -460,7 +464,7 @@ const Component10 = () => {
   return (
     <>
       <h1 className="name-of-bug">Panstrongylus geniculatus</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Panstrongylus_geniculatusF.png"
           width={widthConst}
@@ -485,7 +489,7 @@ const Component11 = () => {
   return (
     <>
       <h1 className="name-of-bug">Panstrongylus lutzi</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Panstrongylus_lutziF.png"
           width={widthConst}
@@ -510,7 +514,7 @@ const Component12 = () => {
   return (
     <>
       <h1 className="name-of-bug">Rhodnius neglectus</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Rhodnius_neglectusF.png"
           width={widthConst}
@@ -535,7 +539,7 @@ const Component13 = () => {
   return (
     <>
       <h1 className="name-of-bug">Rhodnius pictipes</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Rhodnius_pictipesF.png"
           width={widthConst}
@@ -560,7 +564,7 @@ const Component14 = () => {
   return (
     <>
       <h1 className="name-of-bug">Rhodnius robustus</h1>
-      <div className="flex items-center">
+      <div className="components">
         <Image
           src="/Rhodnius_robustusF.png"
           width={widthConst}
