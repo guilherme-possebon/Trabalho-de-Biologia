@@ -1,0 +1,39 @@
+.containerKissingBugInfos {
+   display: grid;           
+   grid-template: repeat(10, 300px) / 1fr 1fr 1fr;
+   gap: 0px;
+   height: 100%;
+}
+   
+.Coluna1Row2 {
+   grid-row: 2 / 13;
+   grid-column: 1 / 2;
+}
+.Coluna1Row6 {
+   grid-row: 6 / 13;
+   grid-column: 1 / 2;
+}
+.Coluna1Row10 {
+   grid-row: 10 / 13;
+   grid-column: 1 / 2;
+}
+
+.Meio {
+    grid-row: 1 / 13;
+    grid-column: 2 / 3;
+}
+
+
+.Coluna2Row4 {
+   grid-row: 4 / 13;
+   grid-column: 3 / 4;
+}
+
+.Coluna2Row8 {
+   grid-row: 8 / 13;
+   grid-column: 3 / 4;
+}
+.Coluna2Row13 {
+   grid-row: 13 / 13;
+   grid-column: 3 / 4;
+}
