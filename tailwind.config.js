@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -14,8 +15,16 @@ module.exports = {
         h1color: '#000',
         pcolor: '#000',
         bgcolor: '#fff'
+      },
+      fontWeight: {
+        h1Weight: 'bold'
+      },
+      fontSize: {
+        h1Size: '2em'
       }
     }
   },
+  blocklist: ['hidden'],
+
   plugins: []
 }

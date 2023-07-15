@@ -21,10 +21,41 @@
 .components {
     @apply flex items-center
 }
+h1 {
+    @apply font-h1Weight text-h1Size text-h1color
+}
 .name-of-bug {
-    @apply font-bold text-3xl py-8
+    @apply py-8
 }
 
 .what-is-infos {
     @apply flex items-center justify-evenly
 }
+
+.container-kising-bug-infos {
+    @apply flex flex-col justify-evenly gap-[16px]
+}
+
+.p-answers {
+    @apply text-justify text-base text-pcolor indent-2 px-3
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s ;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
