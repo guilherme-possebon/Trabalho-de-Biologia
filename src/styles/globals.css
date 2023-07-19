@@ -3,16 +3,20 @@
 @tailwind utilities;
 
 
-.swiper {
-    @apply w-auto h-16
+.where-we-found-container {
+    @apply w-auto h-20 border-2 rounded-md flex justify-around
 }
 
-.swiper-slide {
-    @apply text-center bg-white flex justify-center items-center 
-}
+.container-images {
+    @apply flex justify-center items-center w-full
+} 
 
-.swiper-slide img {
+.container-images img {
     @apply object-contain
+}
+
+.button-component {
+    @apply hover:translate-x-[5px] hover:translate-y-[5px] transition
 }
 
 .component-render {

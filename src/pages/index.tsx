@@ -1,4 +1,4 @@
-import Slide from '@/Components/Slide'
+import WhereWeFind from '@/Components/WhereWeFind'
 import WhatIs from '@/Components/WhatIs'
 import Head from 'next/head'
 
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <div className="h-screen bgcolor">
         <WhatIs />
-        <Slide />
+        <WhereWeFind />
       </div>
     </>
   )

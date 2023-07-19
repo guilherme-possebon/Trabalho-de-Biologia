@@ -1,240 +1,30 @@
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { ReactNode } from 'react'
 import Image from 'next/image'
-import { useState } from 'react'
 
-import 'swiper/css'
-import 'swiper/css/pagination'
+type LayoutProp = {
+  children: ReactNode
+}
 
-export default function Slide() {
-  const [currentComponent, setCurrentComponent] = useState<string>('')
-
-  const handleClick = (componentName: string) => {
-    setCurrentComponent(componentName)
-  }
-  const renderComponent = (componentName: string) => {
-    switch (componentName) {
-      case 'component1':
-        return Component1()
-      case 'component2':
-        return Component2()
-      case 'component3':
-        return Component3()
-      case 'component4':
-        return Component4()
-      case 'component5':
-        return Component5()
-      case 'component6':
-        return Component6()
-      case 'component7':
-        return Component7()
-      case 'component8':
-        return Component8()
-      case 'component9':
-        return Component9()
-      case 'component10':
-        return Component10()
-      case 'component11':
-        return Component11()
-      case 'component12':
-        return Component12()
-      case 'component13':
-        return Component13()
-      case 'component14':
-        return Component14()
-      default:
-        return Component1()
-    }
-  }
-  return (
-    <section className="h-screen m-1">
-      <Swiper
-        slidesPerView={14}
-        spaceBetween={10}
-        className="border-2 rounded-md"
-      >
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component1')}>
-              <Image
-                src="/Triatoma_infestans.png"
-                fill
-                alt="Imagem do inceto: Triatoma infestans"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component2')}>
-              <Image
-                src="/Panstrongylus_megistus.png"
-                fill
-                alt="Imagem do inceto: Panstrongylus megistus"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component3')}>
-              <Image
-                src="/Triatoma_brasiliensis.png"
-                fill
-                alt="Imagem do inceto: Triatoma brasiliensis"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component4')}>
-              <Image
-                src="/Triatoma_maculata.png"
-                fill
-                alt="Imagem do inceto: Triatoma maculata"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component5')}>
-              <Image
-                src="/Triatoma_pseudomaculata.png"
-                fill
-                alt="Imagem do inceto: Triatoma pseudomaculata"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component6')}>
-              <Image
-                src="/Triatoma_rubrovaria.png"
-                fill
-                alt="Imagem do inceto: Triatoma rubrovaria"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component7')}>
-              <Image
-                src="/Triatoma_sordida.png"
-                fill
-                alt="Imagem do inceto: Triatoma sordida"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component8')}>
-              <Image
-                src="/Triatoma_tibiamaculata.png"
-                fill
-                alt="Imagem do inceto: Triatoma tibiamaculata"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component9')}>
-              <Image
-                src="/Triatoma_vitticeps.png"
-                fill
-                alt="Imagem do inceto: Triatoma vitticeps"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component10')}>
-              <Image
-                src="/Panstrongylus_geniculatus.png"
-                fill
-                alt="Imagem do inceto: Panstrongylus geniculatus"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component11')}>
-              <Image
-                src="/Panstrongylus_lutzi.png"
-                fill
-                alt="Imagem do inceto: Panstrongylus lutzi"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component12')}>
-              <Image
-                src="/Rhodnius_neglectus.png"
-                fill
-                alt="Imagem do inceto: Rhodnius neglectus"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component13')}>
-              <Image
-                src="/Rhodnius_pictipes.png"
-                fill
-                alt="Imagem do inceto: Rhodnius pictipes"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-        <SwiperSlide>
-          <>
-            <button onClick={() => handleClick('component14')}>
-              <Image
-                src="/Rhodnius_robustus.png"
-                fill
-                alt="Imagem do inceto: Rhodnius robustus"
-              />
-            </button>
-          </>
-        </SwiperSlide>
-      </Swiper>
-      <div className="component-render">
-        {currentComponent === '' && renderComponent('component1')}
-        {currentComponent === 'component1' && renderComponent('component1')}
-        {currentComponent === 'component2' && renderComponent('component2')}
-        {currentComponent === 'component3' && renderComponent('component3')}
-        {currentComponent === 'component4' && renderComponent('component4')}
-        {currentComponent === 'component5' && renderComponent('component5')}
-        {currentComponent === 'component6' && renderComponent('component6')}
-        {currentComponent === 'component7' && renderComponent('component7')}
-        {currentComponent === 'component8' && renderComponent('component8')}
-        {currentComponent === 'component9' && renderComponent('component9')}
-        {currentComponent === 'component10' && renderComponent('component10')}
-        {currentComponent === 'component11' && renderComponent('component11')}
-        {currentComponent === 'component12' && renderComponent('component12')}
-        {currentComponent === 'component13' && renderComponent('component13')}
-        {currentComponent === 'component14' && renderComponent('component14')}
-      </div>
-    </section>
-  )
+export function DivWhereWeFind({ children }: LayoutProp) {
+  return <div className="container-images">{children}</div>
 }
 
 const widthConst = 800
 const heightConst = 800
 
-const Component1 = () => {
+export const Component1 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Triatoma infestans</h1>
+      <h1 className="name-of-bug">
+        <em>Triatoma infestans</em>{' '}
+        <a
+          href="https://pt.wikipedia.org/wiki/Johann_Christoph_Friedrich_Klug"
+          target="_blank"
+        >
+          Klug
+        </a>
+        , 1835
+      </h1>
       <div className="components">
         <Image
           src="/triatoma_infestansF.png"
@@ -258,10 +48,19 @@ const Component1 = () => {
     </>
   )
 }
-const Component2 = () => {
+export const Component2 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Panstrongylus megistus</h1>
+      <h1 className="name-of-bug">
+        <em>Panstrongylus megistus</em>{' '}
+        <a
+          href="https://pt.wikipedia.org/wiki/Hermann_Burmeister"
+          target="_blank"
+        >
+          Burmeister
+        </a>
+        , 1835
+      </h1>
       <div className="components">
         <Image
           src="/Panstrongylus_megistusF.png"
@@ -284,10 +83,16 @@ const Component2 = () => {
     </>
   )
 }
-const Component3 = () => {
+export const Component3 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Triatoma brasiliensis</h1>
+      <h1 className="name-of-bug">
+        <em>Triatoma brasiliensis</em>{' '}
+        <a href="https://pt.wikipedia.org/wiki/Artur_Neiva" target="_blank">
+          Neiva
+        </a>
+        , 1911
+      </h1>
       <div className="components">
         <Image
           src="/Triatoma_brasiliensisF.png"
@@ -308,10 +113,19 @@ const Component3 = () => {
     </>
   )
 }
-const Component4 = () => {
+export const Component4 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Triatoma maculata</h1>
+      <h1 className="name-of-bug">
+        <em>Triatoma maculata</em>{' '}
+        <a
+          href="https://en.wikipedia.org/wiki/Wilhelm_Ferdinand_Erichson"
+          target="_blank"
+        >
+          Erichson
+        </a>
+        , 1848
+      </h1>
       <div className="components">
         <Image
           src="/Triatoma_maculataF.png"
@@ -334,10 +148,19 @@ const Component4 = () => {
     </>
   )
 }
-const Component5 = () => {
+export const Component5 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Triatoma pseudomaculata</h1>
+      <h1 className="name-of-bug">
+        <em>Triatoma pseudomaculata</em>{' '}
+        <a
+          href="https://www.scielo.br/j/rsbmt/a/NVc679MGdWZgmvHhqCKXtXS/"
+          target="_blank"
+        >
+          Correia & Espínola
+        </a>
+        , 1964
+      </h1>
       <div className="components">
         <Image
           src="/Triatoma_pseudomaculataF.png"
@@ -362,10 +185,19 @@ const Component5 = () => {
     </>
   )
 }
-const Component6 = () => {
+export const Component6 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Triatoma rubrovaria</h1>
+      <h1 className="name-of-bug">
+        <em>Triatoma rubrovaria</em>{' '}
+        <a
+          href="https://pt.wikipedia.org/wiki/%C3%89mile_Blanchard"
+          target="_blank"
+        >
+          Blanchard
+        </a>
+        , 1843
+      </h1>
       <div className="components">
         <Image
           src="/Triatoma_rubrovariaF.png"
@@ -386,10 +218,16 @@ const Component6 = () => {
     </>
   )
 }
-const Component7 = () => {
+export const Component7 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Triatoma sordida</h1>
+      <h1 className="name-of-bug">
+        <em>Triatoma sordida</em>{' '}
+        <a href="https://en.wikipedia.org/wiki/Carl_St%C3%A5l" target="_blank">
+          Stål
+        </a>
+        , 1859
+      </h1>
       <div className="components">
         <Image
           src="/Triatoma_sordidaF.png"
@@ -410,10 +248,12 @@ const Component7 = () => {
     </>
   )
 }
-const Component8 = () => {
+export const Component8 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Triatoma tibiamaculata</h1>
+      <h1 className="name-of-bug">
+        <em>Triatoma tibiamaculata</em> Pinto, 1926
+      </h1>
       <div className="components">
         <Image
           src="/Triatoma_tibiamaculataF.png"
@@ -434,10 +274,16 @@ const Component8 = () => {
     </>
   )
 }
-const Component9 = () => {
+export const Component9 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Triatoma vitticeps</h1>
+      <h1 className="name-of-bug">
+        <em>Triatoma vitticeps</em>{' '}
+        <a href="https://en.wikipedia.org/wiki/Carl_St%C3%A5l" target="_blank">
+          Stål
+        </a>
+        , 1859
+      </h1>
       <div className="components">
         <Image
           src="/Triatoma_vitticepsF.png"
@@ -460,10 +306,19 @@ const Component9 = () => {
     </>
   )
 }
-const Component10 = () => {
+export const Component10 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Panstrongylus geniculatus</h1>
+      <h1 className="name-of-bug">
+        <em>Panstrongylus geniculatus</em>{' '}
+        <a
+          href="https://en.wikipedia.org/wiki/Pierre_Andr%C3%A9_Latreille"
+          target="_blank"
+        >
+          Latreille
+        </a>
+        , 1811
+      </h1>
       <div className="components">
         <Image
           src="/Panstrongylus_geniculatusF.png"
@@ -485,10 +340,16 @@ const Component10 = () => {
     </>
   )
 }
-const Component11 = () => {
+export const Component11 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Panstrongylus lutzi</h1>
+      <h1 className="name-of-bug">
+        <em>Panstrongylus lutzi</em>{' '}
+        <a href="https://pt.wikipedia.org/wiki/Artur_Neiva" target="_blank">
+          Neiva
+        </a>{' '}
+        & Pinto, 1923
+      </h1>
       <div className="components">
         <Image
           src="/Panstrongylus_lutziF.png"
@@ -510,10 +371,12 @@ const Component11 = () => {
     </>
   )
 }
-const Component12 = () => {
+export const Component12 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Rhodnius neglectus</h1>
+      <h1 className="name-of-bug">
+        <em>Rhodnius neglectus</em> Lent, 1954
+      </h1>
       <div className="components">
         <Image
           src="/Rhodnius_neglectusF.png"
@@ -535,10 +398,16 @@ const Component12 = () => {
     </>
   )
 }
-const Component13 = () => {
+export const Component13 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Rhodnius pictipes</h1>
+      <h1 className="name-of-bug">
+        <em>Rhodnius pictipes</em>{' '}
+        <a href="https://en.wikipedia.org/wiki/Carl_St%C3%A5l" target="_blank">
+          Stål
+        </a>
+        , 1872
+      </h1>
       <div className="components">
         <Image
           src="/Rhodnius_pictipesF.png"
@@ -560,10 +429,12 @@ const Component13 = () => {
     </>
   )
 }
-const Component14 = () => {
+export const Component14 = () => {
   return (
     <>
-      <h1 className="name-of-bug">Rhodnius robustus</h1>
+      <h1 className="name-of-bug">
+        <em>Rhodnius robustus</em> Larrousse, 1927
+      </h1>
       <div className="components">
         <Image
           src="/Rhodnius_robustusF.png"
