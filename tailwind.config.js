@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
@@ -14,13 +15,17 @@ module.exports = {
       colors: {
         h1color: '#000',
         pcolor: '#000',
-        bgcolor: '#fff'
+        bgcolor: '#fff',
+        backGround: '#b3b3b384'
       },
       fontWeight: {
         h1Weight: 'bold'
       },
       fontSize: {
         h1Size: '2em'
+      },
+      backgroundImage: {
+        Texture: "url('/public/WhatIs-texture.jpg')"
       }
     }
   },

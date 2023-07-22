@@ -3,8 +3,17 @@
    grid-template: repeat(10, 300px) / 1fr 1fr 1fr;
    gap: 0px;
    height: 100%;
+   width: 100%;
+   padding: 0 10px;
 }
-   
+.BgWrap {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+   z-index: -1;
+   filter: blur(6px);
+}
 .Coluna1Row2 {
    grid-row: 2 / 13;
    grid-column: 1 / 2;

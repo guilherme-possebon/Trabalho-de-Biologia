@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .where-we-found-container {
     @apply w-auto h-20 border-2 rounded-md flex justify-around
 }
@@ -42,6 +41,13 @@ h1 {
 
 .p-answers {
     @apply text-justify text-base text-pcolor indent-2 px-3
+}
+.WhatIsSection {
+    @apply h-[3700px]
+}
+
+.BackGroundRow {
+    @apply bg-backGround rounded-lg py-3
 }
 
 .hidden {
