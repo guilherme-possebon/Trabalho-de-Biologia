@@ -40,7 +40,7 @@ h1 {
 }
 
 .p-answers {
-    @apply text-justify text-base text-pcolor indent-2 px-3
+    @apply text-justify text-base text-pcolor indent-8 px-3
 }
 .WhatIsSection {
     @apply h-[3700px]

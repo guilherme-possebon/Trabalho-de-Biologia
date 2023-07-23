@@ -1,5 +1,6 @@
 import WhereWeFind from '@/Components/WhereWeFind'
 import WhatIs from '@/Components/WhatIs'
+import TransmissionsRisks from '@/Components/TransmissionsRisks'
 import Head from 'next/head'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <div className="h-screen">
         <WhatIs />
+        <TransmissionsRisks />
         <WhereWeFind />
       </div>
     </>

@@ -61,7 +61,7 @@ export default function WhereWeFind() {
   const widthImages = 40
   const heightImages = 60
   return (
-    <section className="h-screen mt-1 bg-white w-full">
+    <section className="h-screen bg-white w-full">
       <div className="where-we-found-container">
         <DivWhereWeFind>
           <button

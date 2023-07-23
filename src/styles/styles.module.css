@@ -12,7 +12,6 @@
    width: 100%;
    overflow: hidden;
    z-index: -1;
-   filter: blur(6px);
 }
 .Coluna1Row2 {
    grid-row: 2 / 13;

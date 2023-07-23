@@ -31,7 +31,7 @@ export default function WhatIs() {
       <div className={`${styles.containerKissingBugInfos}`}>
         {/* -------------------------Meio------------------------- */}
         <div className={`${styles.Meio} sticky h-[450px] top-0`}>
-          <Spline scene="https://prod.spline.design/Z-RiSwU5A72Mv7dl/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/Ofi8vU-dA1FO5nfj/scene.splinecode" />
         </div>
         {/* -------------------------Coluna 1------------------------- */}
 
