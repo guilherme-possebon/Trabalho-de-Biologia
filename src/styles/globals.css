@@ -49,6 +49,9 @@ h1 {
 .BackGroundRow {
     @apply bg-backGround rounded-lg py-3
 }
+.BackGroundRow p {
+    @apply  text-xl
+}
 
 .hidden {
     opacity: 0;

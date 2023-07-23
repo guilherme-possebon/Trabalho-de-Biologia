@@ -1,7 +1,7 @@
-import Spline from '@splinetool/react-spline'
 import styles from '../styles/styles.module.css'
 import Image from 'next/image'
-import { useEffect } from 'react'
+import Spline from '@splinetool/react-spline'
+import { useEffect, useRef } from 'react'
 
 export default function WhatIs() {
   useEffect(() => {
@@ -22,16 +22,24 @@ export default function WhatIs() {
       hiddenElements.forEach((el) => observer.unobserve(el))
     }
   }, [])
+  const spline = useRef()
+
+  function onLoad(splineApp: undefined) {
+    spline.current = splineApp
+  }
 
   return (
-    <section className="h-[3700px]">
+    <section className="h-[6500px]">
       <div className={styles.BgWrap}>
         <Image alt="travel" src="/WhatIs-texture.jpg" fill quality={100} />
       </div>
       <div className={`${styles.containerKissingBugInfos}`}>
         {/* -------------------------Meio------------------------- */}
         <div className={`${styles.Meio} sticky h-[450px] top-0`}>
-          <Spline scene="https://prod.spline.design/Ofi8vU-dA1FO5nfj/scene.splinecode" />
+          <Spline
+            scene="https://prod.spline.design/x2henyScW7AMK-RD/scene.splinecode"
+            onLoad={onLoad}
+          />
         </div>
         {/* -------------------------Coluna 1------------------------- */}
 
