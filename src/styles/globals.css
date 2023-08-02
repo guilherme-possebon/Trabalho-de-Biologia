@@ -66,6 +66,9 @@ h1 {
     transform: translateX(0);
 }
 
+em {
+    @apply underline
+}
 @media (prefers-reduced-motion) {
     .hidden {
         transition: none;
