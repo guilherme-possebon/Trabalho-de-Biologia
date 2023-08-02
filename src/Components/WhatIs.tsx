@@ -38,7 +38,6 @@ export default function WhatIs() {
         <div className={`${styles.Meio} sticky h-[450px] top-0`}>
           <Spline
             scene="https://prod.spline.design/x2henyScW7AMK-RD/scene.splinecode"
-            onLoad={onLoad}
           />
         </div>
         {/* -------------------------Coluna 1------------------------- */}
