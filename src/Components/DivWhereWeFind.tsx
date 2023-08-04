@@ -16,7 +16,7 @@ export const Component1 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma infestans</em>{' '}
+        <em>Triatoma{' '}</em> <em>infestans</em>{' '}
         <a
           href="https://pt.wikipedia.org/wiki/Johann_Christoph_Friedrich_Klug"
           target="_blank"
@@ -52,7 +52,7 @@ export const Component2 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Panstrongylus megistus</em>{' '}
+        <em>Panstrongylus{' '}</em> <em>megistus</em>{' '}
         <a
           href="https://pt.wikipedia.org/wiki/Hermann_Burmeister"
           target="_blank"
@@ -87,7 +87,7 @@ export const Component3 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma brasiliensis</em>{' '}
+        <em>Triatoma{' '}</em> <em>brasiliensis</em>{' '}
         <a href="https://pt.wikipedia.org/wiki/Artur_Neiva" target="_blank">
           Neiva
         </a>
@@ -117,7 +117,7 @@ export const Component4 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma maculata</em>{' '}
+        <em>Triatoma{' '}</em> <em>maculata</em>{' '}
         <a
           href="https://en.wikipedia.org/wiki/Wilhelm_Ferdinand_Erichson"
           target="_blank"
@@ -152,7 +152,7 @@ export const Component5 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma pseudomaculata</em>{' '}
+        <em>Triatoma{' '}</em> <em>pseudomaculata</em>{' '}
         <a
           href="https://www.scielo.br/j/rsbmt/a/NVc679MGdWZgmvHhqCKXtXS/"
           target="_blank"
@@ -189,7 +189,7 @@ export const Component6 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma rubrovaria</em>{' '}
+        <em>Triatoma{' '}</em> <em>rubrovaria</em>{' '}
         <a
           href="https://pt.wikipedia.org/wiki/%C3%89mile_Blanchard"
           target="_blank"
@@ -222,7 +222,7 @@ export const Component7 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma sordida</em>{' '}
+        <em>Triatoma{' '}</em> <em>sordida</em>{' '}
         <a href="https://en.wikipedia.org/wiki/Carl_St%C3%A5l" target="_blank">
           Stål
         </a>
