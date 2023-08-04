@@ -75,7 +75,7 @@ export default function WhatIs() {
             <p className="p-answers">
               Suas formas evolutivas são amastigota, tripomastigota e
               epimastigota. Por exemplo, no sangue dos vertebrados, o{' '}
-              <em>T. cruzi</em> se apresenta sob a forma de tripomastigota, que
+              <em>Trypanosoma cruzi</em> se apresenta sob a forma de tripomastigota, que
               é extremamente móvel, e, nos tecidos, como amastigotas. No tubo
               digestivo dos vetores ocorre a transformação do parasito, dando
               origem às formas infectantes presentes nas fezes do inseto. A
@@ -121,7 +121,7 @@ export default function WhatIs() {
           <div className="hidden BackGroundRow">
             <h1 className="text-center">Ciclo de Vida</h1>
             <p className="p-answers">
-              O ciclo de vida do <em>T. cruzi</em> inicia quando o barbeiro, ao
+              O ciclo de vida do <em>Trypanosoma cruzi</em> inicia quando o barbeiro, ao
               se alimentar do hospedeiro vertebrado, elimina suas fezes e urina,
               onde podem estar presentes as formas tripomastigotas. Os parasitas
               tripomastigotas penetram na pele e infectam as células do
