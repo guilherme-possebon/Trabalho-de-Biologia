@@ -26,7 +26,7 @@ export default function TransmissionsRisks() {
               <li className="py-2">
                 <span className="font-bold">Vertical:</span> ocorre pela
                 passagem de parasitos de mulheres infectadas por
-                <em> T. cruzi</em> para seus bebês durante a gravidez ou o
+                <em> Trypanosoma cruzi</em> para seus bebês durante a gravidez ou o
                 parto.
               </li>
               <li className="py-2">
