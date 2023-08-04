@@ -25,7 +25,7 @@
     @apply flex items-center
 }
 h1 {
-    @apply text-h1Size 
+    @apply text-h1Size text-h1color
 }
 .name-of-bug {
     @apply py-8
@@ -39,7 +39,7 @@ h1 {
     @apply flex flex-col justify-evenly gap-[16px]
 }
 em {
- @apply underline font-bold text-h1color
+ @apply underline font-bold
 }
 
 .p-answers {
