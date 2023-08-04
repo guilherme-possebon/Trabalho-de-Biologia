@@ -39,7 +39,7 @@ h1 {
     @apply flex flex-col justify-evenly gap-[16px]
 }
 em {
- @apply underline font-bold
+ @apply underline font-black
 }
 
 .p-answers {
