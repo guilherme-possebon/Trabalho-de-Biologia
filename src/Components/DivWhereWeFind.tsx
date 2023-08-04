@@ -16,7 +16,7 @@ export const Component1 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma{' '}</em> <em>infestans</em>{' '}
+        <em>Triatoma</em>{' '} <em>infestans</em>{' '}
         <a
           href="https://pt.wikipedia.org/wiki/Johann_Christoph_Friedrich_Klug"
           target="_blank"
