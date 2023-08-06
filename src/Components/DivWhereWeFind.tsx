@@ -41,7 +41,7 @@ export const Component1 = () => {
           Risco de reintrodução da espécie no Paraná.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -52,7 +52,7 @@ export const Component2 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Panstrongylus{' '}</em> <em>megistus</em>{' '}
+        <em>Panstrongylus</em>{' '}<em>megistus</em>{' '}
         <a
           href="https://pt.wikipedia.org/wiki/Hermann_Burmeister"
           target="_blank"
@@ -76,7 +76,7 @@ export const Component2 = () => {
           Presente em peridomicílios e na área silvestre.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -87,7 +87,7 @@ export const Component3 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma{' '}</em> <em>brasiliensis</em>{' '}
+        <em>Triatoma</em>{' '}<em>brasiliensis</em>{' '}
         <a href="https://pt.wikipedia.org/wiki/Artur_Neiva" target="_blank">
           Neiva
         </a>
@@ -106,7 +106,7 @@ export const Component3 = () => {
           Domicílio, peridomicílio e silvestre.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -117,7 +117,7 @@ export const Component4 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma{' '}</em> <em>maculata</em>{' '}
+        <em>Triatoma</em>{' '}<em>maculata</em>{' '}
         <a
           href="https://en.wikipedia.org/wiki/Wilhelm_Ferdinand_Erichson"
           target="_blank"
@@ -141,7 +141,7 @@ export const Component4 = () => {
           Frequentemente em peridomicílio e eventualmente em domicílio.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -152,7 +152,7 @@ export const Component5 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma{' '}</em> <em>pseudomaculata</em>{' '}
+        <em>Triatoma</em>{' '}<em>pseudomaculata</em>{' '}
         <a
           href="https://www.scielo.br/j/rsbmt/a/NVc679MGdWZgmvHhqCKXtXS/"
           target="_blank"
@@ -178,7 +178,7 @@ export const Component5 = () => {
           domicílio.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -189,7 +189,7 @@ export const Component6 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma{' '}</em> <em>rubrovaria</em>{' '}
+        <em>Triatoma</em>{' '}<em>rubrovaria</em>{' '}
         <a
           href="https://pt.wikipedia.org/wiki/%C3%89mile_Blanchard"
           target="_blank"
@@ -211,7 +211,7 @@ export const Component6 = () => {
           Silvestre &#40;entre pedras&#41; de peridomicílio e domicílio.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -222,7 +222,7 @@ export const Component7 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma{' '}</em> <em>sordida</em>{' '}
+        <em>Triatoma</em>{' '}<em>sordida</em>{' '}
         <a href="https://en.wikipedia.org/wiki/Carl_St%C3%A5l" target="_blank">
           Stål
         </a>
@@ -241,7 +241,7 @@ export const Component7 = () => {
           Silvestre, peridomicílio &#40;galinheiros&#41; e domicílio.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -252,7 +252,7 @@ export const Component8 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma tibiamaculata</em> Pinto, 1926
+        <em>Triatoma</em>{' '}<em>tibiamaculata</em>{' '}Pinto, 1926
       </h1>
       <div className="components">
         <Image
@@ -267,7 +267,7 @@ export const Component8 = () => {
           Silvestre &#40;refúgios e ninhos de marsupiais&#41;.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -278,7 +278,7 @@ export const Component9 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Triatoma vitticeps</em>{' '}
+        <em>Triatoma</em>{' '}<em>vitticeps</em>{' '}
         <a href="https://en.wikipedia.org/wiki/Carl_St%C3%A5l" target="_blank">
           Stål
         </a>
@@ -299,7 +299,7 @@ export const Component9 = () => {
           Peridomicílio &#40;galinheiros, estábulos e currais&#41; e domicílio.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2015.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2015.
           </span>
         </p>
       </div>
@@ -310,7 +310,7 @@ export const Component10 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Panstrongylus geniculatus</em>{' '}
+        <em>Panstrongylus</em>{' '}<em>geniculatus</em>{' '}
         <a
           href="https://en.wikipedia.org/wiki/Pierre_Andr%C3%A9_Latreille"
           target="_blank"
@@ -333,7 +333,7 @@ export const Component10 = () => {
           peridomicílio e domicílio.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -344,7 +344,7 @@ export const Component11 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Panstrongylus lutzi</em>{' '}
+        <em>Panstrongylus</em>{' '}<em>lutzi</em>{' '}
         <a href="https://pt.wikipedia.org/wiki/Artur_Neiva" target="_blank">
           Neiva
         </a>{' '}
@@ -364,7 +364,7 @@ export const Component11 = () => {
           peridomicílio &#40;galinheiros&#41; e domicílio.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -375,7 +375,7 @@ export const Component12 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Rhodnius neglectus</em> Lent, 1954
+        <em>Rhodnius</em>{' '}<em>neglectus</em> Lent, 1954
       </h1>
       <div className="components">
         <Image
@@ -391,7 +391,7 @@ export const Component12 = () => {
           troncos e casca de árvores&#41;.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -402,7 +402,7 @@ export const Component13 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Rhodnius pictipes</em>{' '}
+        <em>Rhodnius</em>{' '}<em>pictipes</em>{' '}
         <a href="https://en.wikipedia.org/wiki/Carl_St%C3%A5l" target="_blank">
           Stål
         </a>
@@ -422,7 +422,7 @@ export const Component13 = () => {
           &#40;invasor&#41;.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>
@@ -433,7 +433,7 @@ export const Component14 = () => {
   return (
     <>
       <h1 className="name-of-bug">
-        <em>Rhodnius robustus</em> Larrousse, 1927
+        <em>Rhodnius</em>{' '}<em>robustus</em> Larrousse, 1927
       </h1>
       <div className="components">
         <Image
@@ -449,7 +449,7 @@ export const Component14 = () => {
           domicílio.
           <br />
           <span className="text-gray-400">
-            Fonte: Adaptado de FIOCRUZ – Instituto Oswaldo Cruz, 2014.
+            Fonte: Adaptado de FIOCRUZ - Instituto Oswaldo Cruz, 2014.
           </span>
         </p>
       </div>

@@ -24,10 +24,7 @@ export default function TransmissionsRisks() {
                 infectados ou suas excretas.
               </li>
               <li className="py-2">
-                <span className="font-bold">Vertical:</span> ocorre pela
-                passagem de parasitos de mulheres infectadas por
-                <em> Trypanosoma cruzi</em> para seus bebês durante a gravidez ou o
-                parto.
+                <span className="font-bold">Vertical:</span> ocorre pela passagem de parasitos de mulheres infectadas por <em>Trypanosoma</em> <em>cruzi</em> para seus bebês durante a gravidez ou o parto.
               </li>
               <li className="py-2">
                 Transfusão de sangue ou transplante de órgãos de doadores
@@ -51,25 +48,25 @@ export default function TransmissionsRisks() {
             </p>
             <ol className="list-disc pl-2 pt-4 list-inside">
               <li className="py-2">
-                <span className="font-bold">Transmissão vetorial</span> – de 4 a
+                <span className="font-bold">Transmissão vetorial</span> - de 4 a
                 15 dias.
               </li>
               <li>
                 <span className="font-bold">
                   Transmissão transfusional/transplante
                 </span>{' '}
-                – de 30 a 40 dias ou mais
+                - de 30 a 40 dias ou mais
               </li>
               <li className="py-2">
-                <span className="font-bold">Transmissão oral</span> – de 3 a 22
+                <span className="font-bold">Transmissão oral</span> - de 3 a 22
                 dias.
               </li>
               <li className="py-2">
-                <span className="font-bold">Transmissão acidental</span> –
+                <span className="font-bold">Transmissão acidental</span> -
                 aproximadamente, 20 dias.
               </li>
               <li className="py-2">
-                <span className="font-bold">Transmissão vertical</span> – tempo
+                <span className="font-bold">Transmissão vertical</span> - tempo
                 indeterminado, a transmissão pode ocorrer em qualquer período da
                 gestação ou durante o parto.
               </li>
